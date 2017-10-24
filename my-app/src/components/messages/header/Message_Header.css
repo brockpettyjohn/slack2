@@ -1,0 +1,12 @@
+.searchbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.searchbar input{
+    width: 20vw;
+}
+
+.searchbar button{
+    width: 20vw;
+}

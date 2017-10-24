@@ -1,0 +1,9 @@
+.message-view-window{
+    width: 60vw;
+    height: 90vh;
+    border: solid black 1px;
+}
+
+.message-view-window input{
+    bottom: 0;
+}

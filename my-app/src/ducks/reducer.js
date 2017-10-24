@@ -1,11 +1,12 @@
 const MESSAGE = 'MESSAGE';
 const INPUT = 'INPUT';
+const SEARCH = 'SEARCH'
 const initialState = {
     input: '',
-    message: []
+    message: [],
+    search: ''
 }
 export default function reducer(state = initialState, action) {
-    console.log(state)
     switch (action.type) {
         case INPUT:
             return Object.assign({}, state, { input: action.payload });

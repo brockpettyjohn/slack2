@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';
 import '../Message_Page.css';
-import { connect } from 'react-redux';
 import { handleInputChange, handleClick } from '../../../ducks/reducer.js'
+import { connect } from 'react-redux'
+import './Message_Header.css'
 
 class MessageHeader extends Component {
     constructor() {
@@ -37,7 +38,6 @@ class MessageHeader extends Component {
     //     })
     // }
     render() {
-        console.log(this.props)
         const { handleInputChange, handleClick } = this.props
         return (
             <div className='searchbar'>
@@ -66,4 +66,4 @@ class MessageHeader extends Component {
 function mapStateToProps(state) {
     return state
 }
-export default connect(mapStateToProps, { handleInputChange, handleClick })(MessageHeader)
+export default connect(mapStateToProps, { handleInputChange, handleClick })(MessageHeader)*/
